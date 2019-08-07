@@ -1,0 +1,1 @@
+This is a test project to get better aquainted using the command line with git. The aim is to recreate the Google homepage.
