@@ -1,0 +1,45 @@
+
+ul li {
+    display: inline;
+}
+
+ul {
+    display: inline;
+}
+
+#nav-left{
+    float: left;
+}
+
+#nav-right {
+    float: right;
+}
+
+img {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#main {
+    text-align: center;
+}
+
+form{
+    padding-bottom: 20px;
+}
+
+form input {
+    border-radius: 10px;
+}
+
+#main{
+margin: 0 auto;;
+}
+
+#footer-right {
+    float: right;
+}
+
+#footer-left{
+    float: left;
+}
