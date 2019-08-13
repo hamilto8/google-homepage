@@ -6,33 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/g-fav-icon.ico">
     <title>Google</title>
 </head>
 <body>
-    <nav>
+    <nav class="navbar">
         <div id="nav-left">
             <ul>
-                <li>About</li>
-                <li>Store</li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./store.html">Store</a>
+                </li>
             </ul>
         </div>
         <div id="nav-right">
             <ul>
-                <li>GMail</li>
-                <li>Images</li>
+                <li>
+                    <a href="./gmail.html">Gmail</a>
+                </li>
+                <li>
+                    <a href="./images.html">Images</a>
+                </li>
+                <li><img src="./menu_icon.png" alt=""></li>
+                <li><img id="user-icon" src="./user_icon.jpg" alt=""></li>
             </ul>
         </div>
     </nav>
     <div id="main">
         <img src="./googlelogo_color_272x92dp.png" alt="">
         <form action="">
-            <input type="text">
-            <button>Google Search</button>
-            <button>I'm feeling lucky</button>
+            <input type="text" id="search">
+            <div id="buttons">
+                <button id="gSearch">Google Search</button>
+                <button id="lucky">I'm feeling lucky</button>
+            </div>
         </form>
     </div>
 
-    <footer>
+    <footer class="footer">
         <div id="footer-left">
             <ul>
                 <li>Advertising</li>

@@ -1,3 +1,13 @@
+html, body {
+    height: 100%;
+    padding: none;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
 
 ul li {
     display: inline;
@@ -5,6 +15,26 @@ ul li {
 
 ul {
     display: inline;
+}
+
+.navbar {
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+.navbar ul li {
+    padding-right: 15px;
+}
+
+.navbar ul li img {
+    width: 22px;
+    height: auto;
+    margin-top: -20px;
+}
+
+#user-icon{
+    width: 35px;
+    height: auto;
 }
 
 #nav-left{
@@ -21,7 +51,10 @@ img {
 }
 
 #main {
+    /* padding: none;
+    margin: -10px; */
     text-align: center;
+    flex: 1 0 auto;
 }
 
 form{
@@ -36,10 +69,47 @@ form input {
 margin: 0 auto;;
 }
 
+.footer {
+    flex-shrink: 0;
+    font-size: 13px;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    border-top: 1px solid rgb(223, 223, 223);
+}
+
+.footer ul li {
+    padding-right: 15px;
+}
+
+
 #footer-right {
     float: right;
 }
 
 #footer-left{
     float: left;
+}
+
+button {
+    border: none;
+    padding: 10px 15px;;
+    background-color: rgb(240, 240, 240);
+}
+
+#search {
+    border: 1px solid rgb(233, 233, 233);
+    /* border-radius: 205px; */
+    width: 500px;
+    padding: 10px 15px;
+}
+
+#buttons {
+    padding-top: 10px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
