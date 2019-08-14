@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url("./images/data-center.jpg");
+}
+
+#main{
+    color: white;
+    text-align: center;
+}

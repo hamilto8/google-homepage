@@ -107,6 +107,14 @@ button {
     padding-top: 10px;
 }
 
+a {
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
 input:focus,
 select:focus,
 textarea:focus,

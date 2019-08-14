@@ -1,0 +1,10 @@
+body{
+    background-size: 100% auto;
+    background-image: url("./images/hotdogs.jpg");
+}
+
+#main {
+
+    color: white;
+    text-align: center;
+}
