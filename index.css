@@ -66,7 +66,8 @@ form input {
 }
 
 #main{
-margin: 0 auto;;
+margin: 0 auto;
+padding-top: 60px;
 }
 
 .footer {
@@ -104,7 +105,7 @@ button {
 }
 
 #buttons {
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 a {

@@ -4,55 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/g-fav-icon.ico">
     <link rel="stylesheet" href="./results.css">
     <title>Search Results</title>
 </head>
 <body>
-    <nav>
-        <div id="left">
-            <img id="logo-left" src="./googlelogo_color_272x92dp.png" alt="">
-            <input type="text">
-            <img src="./menu_icon.png" alt="">
-            <img src="./user_icon.jpg" alt="">
-        </div>
-    </nav>
-    <div>
-        <ul>
-            <li>
-                <img src="./images/search-icon.gif" alt="">
-                All
-            </li>
-            <li>
-                <img src="./images/news-icon.gif" alt="">
-                News
-            </li>
-            <li>
-                <img src="./images/video-icon.gif" alt="">
-                Video
-            </li>
-            <li>
-                <img src="./images/maps-icon.gif" alt="">
-                Maps
-            </li>
-            <li>
-                <img src="./images/shopping-icon.gif" alt="">
-                Shopping
-            </li>
-            <li>
-                <img src="./images/more-icon.gif" alt="">
-                More
-            </li>
-            <span id="settings">
-                    <li>
-                        Settings
-                    </li>
-                    <li>
-                        Tools
-                    </li>
-                </span>
-        </ul>
-    </div>
-    <p>Results are here!</p>
+    <div id="top">
+            <nav>
+                    <div id="left">
+                        <img id="logo-left" src="./googlelogo_color_272x92dp.png" alt="">
+                    </div>
+                    <div id="right">
+                            <img src="./menu_icon.png" alt="">
+                            <img src="./user_icon.jpg" alt="">
+                    </div>
+                </nav>
+                <div id="main">
+                        <input id="search" type="text">
+                        <div id="toolbar">
+                                <ul>
+                                    <li>
+                                        <img src="./images/search-icon.gif" alt="">
+                                        All
+                                    </li>
+                                    <li>
+                                        <img src="./images/news-icon.gif" alt="">
+                                        News
+                                    </li>
+                                    <li>
+                                        <img src="./images/video-icon.gif" alt="">
+                                        Video
+                                    </li>
+                                    <li>
+                                        <img src="./images/maps-icon.gif" alt="">
+                                        Maps
+                                    </li>
+                                    <li>
+                                        <img src="./images/shopping-icon.gif" alt="">
+                                        Shopping
+                                    </li>
+                                    <li>
+                                        <img src="./images/more-icon.gif" alt="">
+                                        More
+                                    </li>
+                                    <span id="settings">
+                                            <li>
+                                                Settings
+                                            </li>
+                                            <li>
+                                                Tools
+                                            </li>
+                                        </span>
+                                </ul>
+                            </div>
+                </div>
+                <div id="results">
+                    <p id="metrics">About 139,000,000 results (0.64 seconds)</p>
+                    <div id="result-0">
+                        <span class="title">
+                            <a href="#">build this webpage - GitHub Pages</a>
+                        </span>
+                        <div class="url">https://www.github.com/</div>
+                        <span class="text">
+                            With no coding experience, build 2000 webpages in 5 days.
+                        </span>
+                    </div>
+                    <div id="result-1">
+                            <span class="title">
+                                <a href="#">How to Build a Website: the Step by Step Guide</a>
+                            </span>
+                            <div class="url">https://www.websitegeniuspro.com/</div>
+                            <span class="text">
+                                With just a little coding experience, build 1 webpage in 2 years.
+                            </span>
+                    </div>
+                        <div id="result-2">
+                                <span class="title">
+                                    <a href="#">Free Website Builder for Your Business</a>
+                                </span>
+                                <div class="url">https://www.google.com/</div>
+                                <span class="text">
+                                    Google My Business can automatically generate a website for you for free.
+                                </span>
+                        </div>
+                        <div id="result-3">
+                                    <span class="title">
+                                        <a href="#">Squarespace: Build a Website</a>
+                                    </span>
+                                    <div class="url">https://www.squarespace.com/</div>
+                                    <span class="text">
+                                        Squarespace is the all-in-one solution for anyone looking to create a beautiful website.
+                                    </span>
+                        </div>
+                </div>
+
+                </div>
+                
+    
     <a href="./index.html">Back to Google Home Page</a>
 </body>
 </html>
