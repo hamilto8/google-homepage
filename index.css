@@ -1,12 +1,10 @@
 html, body {
-    height: 100%;
-    padding: none;
-    margin: 0;
-}
-
-body {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: none;
 }
 
 ul li {
@@ -18,6 +16,7 @@ ul {
 }
 
 .navbar {
+    min-width: 1080px;
     font-size: 13px;
     padding-top: 15px;
 }
@@ -71,6 +70,7 @@ padding-top: 60px;
 }
 
 .footer {
+    min-width: 1080px;
     flex-shrink: 0;
     font-size: 13px;
     background-color: rgb(240, 240, 240);
